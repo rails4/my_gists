@@ -38,6 +38,7 @@ heroku create
 git push heroku master
 heroku open
 # heroku rename
+# heroku run rake db:migrate
 ```
 
 ### Scaffold
