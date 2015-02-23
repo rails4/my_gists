@@ -11,7 +11,7 @@ Things you may want to cover:
   - [RVM](https://rvm.io/rvm/install)
   - SQLite
   - [Pygments](http://pygments.org/):
-    see [](app/assets/stylesheets/pygments.css.erb),
+    see [pygments.css.erb](app/assets/stylesheets/pygments.css.erb),
     [show.html.erb](app/views/gists/show.html.erb)
   - [Heroku Toolbeit](https://toolbelt.heroku.com/)
 * Configuration: *.ruby-gemset*
@@ -54,6 +54,7 @@ rake db:migrate
 ### TODO
 
 - [ ] [Foundation](https://github.com/zurb/foundation-rails)
+  - [docs](http://foundation.zurb.com/docs/)
 - [ ] [Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
 
 *Important:* Add Foundation or Bootstrap on branches.
