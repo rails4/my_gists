@@ -3,7 +3,7 @@
 <h1>Listing Gists</h1>
 
 <% @gists.each do |gist| %>
-  <div><%= gist.snippet %></div>
+  <pre><%= gist.snippet %></pre>
   <p>description: <%= gist.lang %></p>
   <p>language: <%= gist.description %></p>
   <div>

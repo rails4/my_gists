@@ -10,6 +10,9 @@ Things you may want to cover:
   - Git
   - [RVM](https://rvm.io/rvm/install)
   - SQLite
+  - [Pygments](http://pygments.org/):
+    see [](app/assets/stylesheets/pygments.css.erb),
+    [show.html.erb](app/views/gists/show.html.erb)
   - [Heroku Toolbeit](https://toolbelt.heroku.com/)
 * Configuration: *.ruby-gemset*
 * Database initialization
@@ -47,3 +50,10 @@ heroku open
 rails g scaffold gist snippet:text lang description
 rake db:migrate
 ```
+
+### TODO
+
+- [ ] [Foundation](https://github.com/zurb/foundation-rails)
+- [ ] [Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
+
+*Important:* Add Foundation or Bootstrap on branches.
