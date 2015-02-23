@@ -32,6 +32,10 @@ Production (Heroku):
 heroku login
 heroku keys:add
 heroku create
+# Creating warm-fortress-9464... done, stack is cedar-14
+# https://warm-fortress-9464.herokuapp.com/ | https://git.heroku.com/warm-fortress-9464.git
+# Git remote heroku added
 git push heroku master
 heroku open
+# heroku rename
 ```
