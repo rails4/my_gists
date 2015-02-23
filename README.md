@@ -21,8 +21,8 @@ Things you may want to cover:
 Zaczynamy od poprawek w pliku [Gemfile](Gemfile):
 *sqlite3* do *development*; *pg* do *production*.
 
-Development:
 ```console
+Development:
 bundle install --without production
 rake db:migrate
 ```
@@ -38,4 +38,11 @@ heroku create
 git push heroku master
 heroku open
 # heroku rename
+```
+
+### Scaffold
+
+```console
+rails g scaffold gist snippet:text lang description
+rake db:migrate
 ```
