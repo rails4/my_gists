@@ -111,7 +111,12 @@ Refactor:
 * add search button to header: [Components](http://getbootstrap.com/components/#navbar)
   - add brand image to navbar: [Brand image](http://getbootstrap.com/components/#navbar-brand-image)
 * style buttons with Bootstrap: [Buttons](http://getbootstrap.com/css/#buttons)
-  and CSS (use *rows* attribute to *textarea*)
+  and CSS (use *rows* attribute in *textarea* element)
+
+**TODO**:
+
+- [ ] use Bootstrap [Alerts](http://getbootstrap.com/components/#alerts)
+  for contextual feedback messages
 
 
 ### TODO
