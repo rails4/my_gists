@@ -103,11 +103,11 @@ The source of [the starter template](http://getbootstrap.com/examples/starter-te
 </body>
 ```
 
-Fix vertical space under the navbar: [custom.scss](app/assets/stylesheets/custom.scss). 
+Fix vertical space under the navbar: [custom.scss](app/assets/stylesheets/custom.scss).
 
 Refactor:
 
-* partial layouts
+* partial layout: [layouts/header]()
 
 
 
