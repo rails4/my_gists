@@ -9,3 +9,9 @@ $font-size-base: 18px;
 $text-color: black;
 
 @import "bootstrap";
+
+/* fix vertical space under the navbar */
+
+body {
+  padding-top: 60px;
+}
