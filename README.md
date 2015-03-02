@@ -107,8 +107,9 @@ Fix vertical space under the navbar: [custom.scss](app/assets/stylesheets/custom
 
 Refactor:
 
-* partial layout: [layouts/header]()
-
+* partial layouts: [layouts/header](app/views/layouts/_header.html.erb)
+* add search button to header: [Components](http://getbootstrap.com/components/#navbar)
+  - add brand image to navbar: [Brand image](http://getbootstrap.com/components/#navbar-brand-image)
 
 
 ### TODO
