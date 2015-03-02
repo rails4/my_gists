@@ -51,10 +51,15 @@ rails g scaffold gist snippet:text lang description
 rake db:migrate
 ```
 
+## Bootstrap
+
+- Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
+- [Official Sass port of Bootstrap](https://github.com/twbs/bootstrap-sass)
+
+
 ### TODO
 
 - [ ] [Foundation](https://github.com/zurb/foundation-rails)
   - [docs](http://foundation.zurb.com/docs/)
-- [ ] [Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
 
 *Important:* Add Foundation or Bootstrap on branches.
