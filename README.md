@@ -24,8 +24,9 @@ Things you may want to cover:
 Zaczynamy od poprawek w pliku [Gemfile](Gemfile):
 *sqlite3* do *development*; *pg* do *production*.
 
+Teraz instalujemy gemy, towrzymy bazę danych SQLite i migrujemy:
+
 ```console
-Development:
 bundle install --without production
 rake db:migrate
 ```
@@ -51,9 +52,15 @@ rails g scaffold gist snippet:text lang description
 rake db:migrate
 ```
 
+
+## Ruby on Rails API
+
+* [Rails API](http://api.rubyonrails.org/)
+
+
 ## Bootstrap
 
-- Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
+- [Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
 - [Official Sass port of Bootstrap](https://github.com/twbs/bootstrap-sass)
 
 ### Application Template
