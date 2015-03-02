@@ -7,14 +7,14 @@
   <p>description: <%= gist.lang %></p>
   <p>language: <%= gist.description %></p>
   <div>
-    <span><%= link_to 'Show', gist %></span>
-    <span><%= link_to 'Edit', edit_gist_path(gist) %></span>
-    <span><%= link_to 'Destroy', gist, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+    <span><%= link_to 'Show', gist, class: "btn btn-info" %></span>
+    <span><%= link_to 'Edit', edit_gist_path(gist), class: "btn btn-primary" %></span>
+    <span><%= link_to 'Destroy', gist, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></span>
   </div>
 <% end %>
 
 <br>
 
 <div>
-  <%= link_to 'New Gist', new_gist_path %>
+  <%= link_to 'New Gist', new_gist_path, class: "btn btn-default" %>
 </div>
