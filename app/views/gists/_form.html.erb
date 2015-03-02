@@ -13,15 +13,15 @@
 
   <div class="field">
     <%= f.label :snippet %><br>
-    <%= f.text_area :snippet %>
+    <%= f.text_area :snippet, class: "form-control", rows: 8 %>
   </div>
   <div class="field">
     <%= f.label :lang %><br>
-    <%= f.text_field :lang %>
+    <%= f.text_field :lang, class: "form-control"%>
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_field :description %>
+    <%= f.text_field :description, class: "form-control" %>
   </div>
   <div class="actions">
     <%= f.submit class: "btn btn-default" %>

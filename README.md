@@ -110,7 +110,8 @@ Refactor:
 * partial layouts: [layouts/header](app/views/layouts/_header.html.erb)
 * add search button to header: [Components](http://getbootstrap.com/components/#navbar)
   - add brand image to navbar: [Brand image](http://getbootstrap.com/components/#navbar-brand-image)
-* style buttons with bootstrap: [Buttons](http://getbootstrap.com/css/#buttons)
+* style buttons with Bootstrap: [Buttons](http://getbootstrap.com/css/#buttons)
+  and CSS (use *rows* attribute to *textarea*)
 
 
 ### TODO
