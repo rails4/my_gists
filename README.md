@@ -51,10 +51,14 @@ rails g scaffold gist snippet:text lang description
 rake db:migrate
 ```
 
+### Validations
+
+* [Active Record Validations](http://guides.rubyonrails.org/active_record_validations.html)
+
+
 ### TODO
 
 - [ ] [Foundation](https://github.com/zurb/foundation-rails)
   - [docs](http://foundation.zurb.com/docs/)
-- [ ] [Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
 
-*Important:* Add Foundation or Bootstrap on branches.
+*Important:* Add Foundation or Bootstrap on separate branches.
