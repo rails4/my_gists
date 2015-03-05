@@ -29,7 +29,9 @@ bundle install --without production
 rake db:migrate
 ```
 
-Production (Heroku):
+### Production instructions for Heroku
+
+Wykonujemy kolejno te polecenia:
 ```console
 heroku login
 heroku keys:add
