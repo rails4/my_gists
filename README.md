@@ -21,11 +21,10 @@ Things you may want to cover:
 
 ### Deployment instructions
 
-Zaczynamy od poprawek w pliku [Gemfile](Gemfile):
-*sqlite3* do *development*; *pg* do *production*.
-
+Zaczynamy od poprawek w pliku [Gemfile](Gemfile).
+Przenosimy gem *sqlite3* do *development*, a *pg* do *production*.
+I dopiero teraz wykonujemy:
 ```console
-Development:
 bundle install --without production
 rake db:migrate
 ```
