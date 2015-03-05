@@ -35,13 +35,16 @@ Production (Heroku):
 heroku login
 heroku keys:add
 heroku create
-# Creating warm-fortress-9464... done, stack is cedar-14
-# https://warm-fortress-9464.herokuapp.com/ | https://git.heroku.com/warm-fortress-9464.git
-# Git remote heroku added
+  Creating warm-fortress-9464... done, stack is cedar-14
+  https://warm-fortress-9464.herokuapp.com/ | https://git.heroku.com/warm-fortress-9464.git
+  Git remote heroku added
 git push heroku master
+heroku run rake db:migrate
 heroku open
-# heroku rename
-# heroku run rake db:migrate
+```
+Opcjonalnie zmieniamy nazwę aplikacji:
+```console
+heroku apps:rename NEWNAME --app warm-fortress-9464
 ```
 
 ### Scaffold
@@ -61,4 +64,4 @@ rake db:migrate
 - [ ] [Foundation](https://github.com/zurb/foundation-rails)
   - [docs](http://foundation.zurb.com/docs/)
 
-*Important:* Add Foundation or Bootstrap on separate branches.
+*Important:* Add Foundation / Bootstrap on a separate branch.
