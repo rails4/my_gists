@@ -120,15 +120,23 @@ Refactor:
 * style buttons with Bootstrap: [Buttons](http://getbootstrap.com/css/#buttons)
   and CSS (use *rows* attribute in *textarea* element)
 
-**TODO**:
+### will_pagiante
+
+Replace the *index* method with this:
+
+```ruby
+def index
+  @gists = Gist.paginate(:page => params[:page], :per_page => 3)
+end
+```
+
+Add to *index* view this:
+```rhtml
+<%= will_paginate @collection, renderer: BootstrapPagination::Rails %>
+```
+
+
+## TODO
 
 - [ ] use Bootstrap [Alerts](http://getbootstrap.com/components/#alerts)
   for contextual feedback messages
-
-
-### TODO
-
-- [ ] [Foundation](https://github.com/zurb/foundation-rails)
-  - [docs](http://foundation.zurb.com/docs/)
-
-*Important:* Add Foundation or Bootstrap on branches.

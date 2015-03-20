@@ -2,6 +2,8 @@
 
 <h1><a href="https://github.com/rails4/my_gists">Listing Gists</a></h1>
 
+<%= will_paginate @collection, renderer: BootstrapPagination::Rails %>
+
 <% @gists.each do |gist| %>
   <pre><%= gist.snippet %></pre>
   <p>description: <%= gist.lang %></p>
