@@ -60,7 +60,6 @@ rake db:migrate
 
 ## Bootstrap
 
-- [Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
 - [Official Sass port of Bootstrap](https://github.com/twbs/bootstrap-sass)
 
 ### Application Template
