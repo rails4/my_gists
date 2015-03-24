@@ -1,0 +1,27 @@
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+
+// bootstrap variables: http://getbootstrap.com/customize/#less-variables
+
+@import "bootstrap-sprockets";
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+$font-size-base: 20px;
+$text-color: darken($brand-primary, 12.5%);
+
+@import "bootstrap";
+
+/* fix vertical space under the navbar */
+
+body {
+  padding-top: 60px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+@import "scaffolds";
+@import "pygments";
